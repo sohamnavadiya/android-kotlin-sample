@@ -16,8 +16,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val btn_hit = findViewById(R.id.btn_hit) as Button
-        btn_hit.setOnClickListener {
+        val btnHit = findViewById(R.id.btn_hit) as Button
+        btnHit.setOnClickListener {
             "Hit Success".toast(applicationContext)
         }
     }
